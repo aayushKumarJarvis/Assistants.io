@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
      
    
-    $to = "aayush@chefensa.com";
+    $to = "abhinav@innovaccer.com";
     $subject = "Mail From Assistants.io";
 
     function died($error) {
