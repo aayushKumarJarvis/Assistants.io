@@ -49,7 +49,7 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-    $message_mail .= "Name: ".clean_string($first_name)."\n";
+    $message_mail .= "Name: ".clean_string($name)."\n";
     $message_mail .= "Email: ".clean_string($email_from)."\n";
     $message_mail .= "Message: ".clean_string($message)."\n";
 
